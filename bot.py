@@ -1,10 +1,12 @@
+
 import discord
 from discord.ext import commands
 import datetime
 import re
+import os
 
-# Replace this with your actual bot token
-TOKEN = "MTM0NjI1NTI0Njk5NzA2MTc4Mw.GCnHwW.ioSKHeomKmS5PA5hsHgovhpYiCmSkgXDk5TjJI"
+TOKEN = os.getenv("DISCORD_BOT_TOKEN")
+
 
 # Replace this with your #machine-maintenance channel ID
 CHANNEL_ID = 1305654906639745044
